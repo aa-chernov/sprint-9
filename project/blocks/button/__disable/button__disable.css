@@ -1,0 +1,6 @@
+.button.button__disable {
+  border: 1px solid rgba(0, 0, 0, .2);
+  margin-top: 48px;
+  color: rgba(0, 0, 0, .2);
+  background-color: #fff;
+}
