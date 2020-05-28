@@ -9,3 +9,6 @@ __version 0.0.1__
 - HTML
 - CSS
 - JavaScript
+- Webpack
+- Babel
+- npm
