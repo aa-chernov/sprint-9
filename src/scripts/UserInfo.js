@@ -1,6 +1,6 @@
-'use strict';
+import {userInstance} from './index';
 
-class UserInfo {
+export default class UserInfo {
   constructor(userData, defaultData, api, userPopup) {
     this.api = api;
     this.userName = userData.name;

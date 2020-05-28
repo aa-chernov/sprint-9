@@ -1,6 +1,4 @@
-'use strict';
-
-class Card {
+export default class Card {
   constructor() {
     this.card = document.createElement("div");
     this.remove = this.remove.bind(this);
