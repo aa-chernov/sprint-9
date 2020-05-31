@@ -1,6 +1,6 @@
-'use strict';
+import {addButton} from './index';
 
-class Popup {
+export default class Popup {
   constructor(popup, button) {
     this.popup = popup;
     this.button = button;

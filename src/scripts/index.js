@@ -1,4 +1,11 @@
-'use strict';
+import Api from './Api';
+import Card from './Card';
+import CardList from './CardList';
+import FormValidator from './FormValidator';
+import ImagePopup from './ImagePopup';
+import Popup from './Popup';
+import UserInfo from './UserInfo';
+import '../pages/index.css';
 
 /* Переменные */
 
@@ -6,9 +13,6 @@ const placesList = document.querySelector('#places-list');
 const cardEditButton = document.querySelector('#add-button');
 const placePopup = document.querySelector('#card-popup');
 const addButton = placePopup.querySelector('#submit');
-const closeButton = document.querySelector('#close-popup');
-const closeUserForm = document.querySelector('#close-user-popup');
-const closeImagePopup = document.querySelector('#close-image-popup');
 const cardForm = document.querySelector('#new');
 
 const userEditButton = document.querySelector('#edit');
@@ -26,8 +30,6 @@ const imagePopup = document.querySelector('#image-popup');
 const fullImage = document.querySelector('#image-popup-content');
 
 const userForm = document.querySelector('#user-form');
-const userName = userForm.elements.name;
-const userAbout = userForm.elements.about;
 const userData = {
   name: userForm.elements.name,
   about: userForm.elements.about
@@ -115,3 +117,4 @@ cardList.getInitialCards();
 
 //_______________________________________________________________________________________________
 
+export {cardList, fullImage, addButton, userInstance};

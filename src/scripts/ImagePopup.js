@@ -1,6 +1,6 @@
-'use strict';
+import {fullImage} from './index';
 
-class ImagePopup {
+export default class ImagePopup {
   constructor(popup) {
     this.popup = popup;
     this.openImage = this.openImage.bind(this);

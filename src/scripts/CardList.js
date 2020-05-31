@@ -1,6 +1,6 @@
-'use strict';
+import {cardList} from './index';
 
-class CardList {
+export default class CardList {
   constructor(container, instance, api, placePopup) {
     this.container = container;
     this.instance = instance;
